@@ -1,6 +1,6 @@
 version: '2'
 services:
-  socat-docker:
+  proxy:
     image: rxnctrllabs/docker-proxy
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
